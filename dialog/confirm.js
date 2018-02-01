@@ -1,7 +1,7 @@
 export default function (msg) {
   return new Promise(function (resolve, reject) {
     let bg = document.createElement('div')
-    bg.style.cssText = 'position:fixed; width:500px; height:auto; background:#fff; top:100px; left:0; right: 0; margin: 0 auto;border: 1px solid #9c9c9c; box-shadow:0 0 10px #888888; border-radius:5px;'
+    bg.style.cssText = 'position:fixed; z-index:20; width:500px; height:auto; background:#fff; top:100px; left:0; right: 0; margin: 0 auto;border: 1px solid #9c9c9c; box-shadow:0 0 10px #888888; border-radius:5px;'
 
     let title = document.createElement('div')
     title.innerText = '提示'
